@@ -1,0 +1,71 @@
+#body {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+}
+
+#ramen-detail {
+    font-weight: bold;
+}
+
+#new-ramen-form {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    padding: 20px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#new-ramen-form h2 {
+    background: black;
+    color: white;
+    padding: 10px;
+    margin: -20px -20px 20px -20px;
+    border-radius: 10px 10px 0 0;
+    font-size: 18px;
+}
+
+#new-ramen-form input,
+#new-ramen-form textarea,
+#new-ramen-form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 70%; 
+}
+
+#new-ramen-form textarea {
+    resize: vertical;
+    min-height: 60px;
+}
+
+#new-ramen-form button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+#new-ramen-form button:hover {
+    background-color: #333;
+}
+
+
+#ramen-menu img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
