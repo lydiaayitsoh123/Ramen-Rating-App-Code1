@@ -53,7 +53,7 @@ function addSubmitListener() {
         alert(`🎉 Successfully added ${newRamen.name} from ${newRamen.restaurant}!`);
 
         
-        this.reset(); 
+         
     });
 }
 
